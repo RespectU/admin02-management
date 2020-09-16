@@ -25,10 +25,10 @@ spring:
       bindings:
         event-in:
           group: Management
-          destination: TaxiCall
+          destination: CallBus
           contentType: application/json
         event-out:
-          destination: TaxiCall
+          destination: CallBus
           contentType: application/json
 
 logging:
@@ -61,8 +61,8 @@ spring:
       bindings:
         event-in:
           group: Management
-          destination: TaxiCall
+          destination: CallBus
           contentType: application/json
         event-out:
-          destination: TaxiCall
+          destination: CallBus
           contentType: application/json
