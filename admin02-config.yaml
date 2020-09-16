@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: a-config
+  name: admin02-config
   namespace: istio-cb-ns
 data:
-  api.url.driver: http://a-driver:8080
+  api.url.driver: http://admin02-driver:8080
